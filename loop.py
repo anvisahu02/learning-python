@@ -54,7 +54,25 @@
 # else:
 #     print("not prime")
 
-            # WAP to check the reverse of an given input
+
+# prime no. range
+
+# n1=1
+# n2=10
+
+# while(n1<=n2):
+#     i=1
+#     cnt=0
+#     while(i<=n1):
+#         if(n1%i==0):
+#             cnt+=1
+#         i+=1
+#     if(cnt==2):
+#         print(n1)
+#     n1+=1
+
+
+#             WAP to check the reverse of an given input
 # n1=12345656
 # rev= 0
 # while(n1!=0):
@@ -77,9 +95,43 @@
 # else:
 #     print("not palendrom")
 
-# WAP to find the no. is armstrong or not
+# # WAP to find the no. is armstrong or not
+
+# n1=153
+# k=n1
+
+# digit =0
+# while(n1!=0):
+#     digit+=1
+#     n1=n1//10
+# print(f"digit={digit}")
+
+# arm=0
+# m=k
+# while(k!=0):
+#     r=k%10
+#     arm=arm+r**digit
+#     k=k//10
+# if(arm==m):
+#     print("Armstrong",arm )
+# else:
+#     print("not Armstrong",arm)
+
+
 # find the LCM and HCF of two no. ITFU
 # WAP to print the fibonaci series
+# i=1
+# n=8
+# a=-1
+# b=1
+# while(i<=n):
+#     c=a+b
+#     a=b
+#     b=c
+#     print(c)
+#     i+=1
+
+
 # WAP to find the multiplication of two no. using russian mathematics
 # WAP to find the sum of an factorial of a no. ITFU
 # WAP to find the no. is happy or not ITFU
@@ -108,10 +160,20 @@
 # quadratic equ loop 
 
 # no. of factor
-n=120
-k=1
-while(k<=n):
-    if(n%k==0):
-        print(k)
-    k+=1
+# n=120
+# k=1
+# while(k<=n):
+#     if(n%k==0):
+#         print(k)
+#     k+=1
 
+
+# nested while loop
+i=1
+while(i<=5):
+    j=1
+    while(j<=5):
+        print(i,end="  ")
+        j+=1
+    print()
+    i+=1 
